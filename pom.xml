@@ -11,11 +11,15 @@
     <modules>
         <module>provider-service</module>
         <module>consumer-service</module>
+        <module>dubbo-provider-service</module>
+        <module>dubbo-consumer-service</module>
+        <module>dubbo-service</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <dubbo-spring-boot.version>3.2.0</dubbo-spring-boot.version>
     </properties>
 
     <dependencyManagement>
